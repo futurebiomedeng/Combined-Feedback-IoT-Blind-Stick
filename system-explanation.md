@@ -1,6 +1,6 @@
 The device is designed based on the system schematic, with the ESP32 microcontroller serving as the main control unit. All electronic components are connected to the ESP32 through dedicated pins according to their respective functions. The system integrates multiple sensing, actuation, and communication modules to support mobility assistance and safety features.
 
-![System Schematics](images/system-schematics.png)
+![System Schematics](images/system-schematic.png)
 
 Four ultrasonic sensors are used for obstacle detection from multiple directions: bottom-front, front, left, and right. The sensors are strategically placed along the walking stick, with the front and side sensors positioned approximately 50 cm from the tip of the stick to align with the average knee height of Indonesian adults. This placement allows effective detection of obstacles at a height that may pose a risk during walking. The bottom-facing sensor is installed near the lower end of the stick to detect ground-level obstacles such as steps or holes.
 
@@ -12,4 +12,4 @@ Due to the limited number of UART pins on the ESP32, the GPS and GSM modules sha
 
 Power is supplied by two 18650 Li-ion batteries. A dedicated power management circuit is designed to meet the voltage requirements of each component. Voltage regulation and level conversion are used to provide appropriate operating voltages for the ESP32, sensors, communication modules, and DC motor, ensuring stable and reliable system operation.
 
-![System Workflow](images/system-workflow.png)
+![System Workflow](images/device-workflow.png)
